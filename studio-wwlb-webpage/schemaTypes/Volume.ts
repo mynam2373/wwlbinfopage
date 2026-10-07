@@ -1,3 +1,4 @@
+// studio-wwlb-webpage/schemaTypes/volume.ts
 export default {
   name: 'volume',
   title: 'Volúmenes de la Novela',
@@ -36,6 +37,12 @@ export default {
     {
       name: 'climax',
       title: 'Clímax',
+      type: 'text',
+    },
+    // 👇 AGREGA ESTE CAMPO PARA EL TEXTO EXTENSO
+    {
+      name: 'content',
+      title: 'Contenido / Historia Extensa',
       type: 'text',
     },
   ],

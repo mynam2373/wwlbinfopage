@@ -167,6 +167,7 @@ export function NovelView() {
             ['Premisa', vol.premise],
             ['Conflicto', vol.conflict],
             ['Clímax', vol.climax],
+            ['Contenido', vol.content],
           ].filter(([, content]) => content);
 
           return (
